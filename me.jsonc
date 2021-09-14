@@ -6,7 +6,7 @@
                 "webapp": "Stored XSS, Reflected XSS, Sql injection, buffer overflow, broken auth, directory fuzzing, ddos, mac spoofing, spoofing, ip grabbing",
                 "social engineering": "phishing, dorks",
                 "exploitation": "Automated exploitation, code injections",
-                "other": "Vulnerability scanning",
+                "other": "Vulnerability scanning, osint",
                 "life?": null
             }
             
