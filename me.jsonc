@@ -4,7 +4,7 @@
             "Coding": "Python, Ruby, Assembly",
             "Vulns": {
                 "webapp": "Stored XSS, Reflected XSS, Sql injection, buffer overflow, broken auth, directory fuzzing, ddos, mac spoofing, spoofing, ip grabbing",
-                "social engineering": "phishing",
+                "social engineering": "phishing, dorks",
                 "exploitation": "Automated exploitation, code injections",
                 "other": "Vulnerability scanning",
                 "life?": null
