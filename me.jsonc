@@ -3,7 +3,8 @@
         {
             "Coding": ["Python", "Ruby", "Assembly"], 
             "Vulns": {
-                "webapp": ["Stored XSS", "Reflected XSS", "Sql injection", "buffer overflow",
+                "webapp": ["Stored XSS", "Reflected XSS","DOM-based XSS", "Sql injection",
+                         "buffer overflow", "SSRF","XXE","DNS poisoning",
                          "broken auth", "local & remote file inclusion", "directory fuzzing",
                          "ddos", "mac spoofing", "sniffing", "grabbing"],
                 "social engineering": ["phishing", "dorks", "dox"],
