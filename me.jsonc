@@ -1,15 +1,17 @@
 {
-    "skills":
+    "Me":
         {
             "Coding": ["Python", "Ruby", "Assembly"], 
-            "Vulns": {
+            "skills": {
                 "webapp": ["Stored XSS", "Reflected XSS","DOM-based XSS", "Sql injection",
-                         "buffer overflow", "SSRF","XXE","DNS poisoning",
-                         "broken auth", "local & remote file inclusion", "directory fuzzing",
-                         "ddos", "mac spoofing", "sniffing", "grabbing"],
+                         "buffer overflow", "SSRF","XXE","DNS poisoning","broken auth", 
+                         "local & remote file inclusion", "Privilage escalation",
+                         "directory fuzzing","ddos", "mac spoofing", "sniffing"],
+                "wiriless": ["sniffing","port scanning"],
                 "social engineering": ["phishing", "dorks", "dox"],
                 "exploitation": ["Automated exploitation", "code injections"],
-                "other": ["Vulnerability scanning", "osint"],
+                "other": ["Vulnerability scanning", "osint",
+                        "malware analysis","grabbing"],
                 "life?": null
             }
             
