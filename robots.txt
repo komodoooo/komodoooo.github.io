@@ -1,4 +1,0 @@
-User-agent: *
-Disallow: /me.jsonc
-Allow: /me.html
-Allow: /index.html
