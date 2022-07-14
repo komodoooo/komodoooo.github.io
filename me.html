@@ -24,14 +24,14 @@
                             "local & remote file inclusion", "cookie poisoning", "directory indexing",
                             "session management", "misconfiguration", "csrf", "SSTI", "XSPA",
                             "OS Command injection", "open redirect", "HTTP response splitting", 
-                            "broken access controll", "jwt auth", "query pollution",
-                            "Xpath injection", "Headers injection", "XFF bypass",
+                            "broken access controll", "jwt auth", "query/parameter pollution",
+                            "Xpath injection", "Headers injection", "XFF/WAF bypass",
                             "PHP injection", "Javascript injection", "API mass assignment"],
-                    "network": ["sniffing","DNS poisoning", "spoofing", "ftp injection",
+                    "network": ["sniffing","DNS poisoning", "spoofing", "ftp injection", "ssh exploitation",
                             "shell shoveling", "mitm", "denial of service🤡", "ssl pinning bypass"],
-                    "exploitation": ["automated & generic exploitation", "generic code injections", "Shellshock", 
-                            "ssh exploitation", "log4shell", "Privilege escalation"],
-                    "binary": ["disassembling", "decompiling","return to libc", "reversing", 
+                    "exploitation": ["automated & generic exploitation", "generic code injections", 
+                            "Shellshock", "log4shell", "Eternal blue", "Privilege escalation"],
+                    "binary": ["disassembling", "decompiling","return to libc", "reversing", "Dirty cow",
                             "binary planting", "heap/stack buffer overflow & underflow", "memory corruption"],
                     "other": ["Vulnerability scanning", "osint", "geoint","brute force",
                             "malware analysis", "steganography/exif data manipulation", "crawiling & scraping",
@@ -39,15 +39,16 @@
                 },
                 "system administration":{
                     "DataBases": ["MySQL", "MongoDB"],
+                    "Web server": ["Apache", "nginx"],
                     "package manager": ["scoop", "apt", "pacman", "pkg", "snap"],
                     "other": ["port scanning", "tunneling", 
                             "linux/bsd management", "proxy setting",
                             "experience with tcp/udp/dhcp/ssh/ftp/smtp/http/rdp protocols"]
                 },     
                 "cryptanalysis":{
-                    "encoding systems":["encoding", "decoding"],
-                    "encryption systems": ["encrypt","decrypt"],
-                    "other": "hashing"
+                    "encoding algorithms":"encoding & decoding",
+                    "encryption algorithms": "encrypt & decrypt",
+                    "other": "hashing & dehashing"
                 } 
             },
             "life?": null       //jk i love science
