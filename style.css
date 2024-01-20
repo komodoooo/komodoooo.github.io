@@ -1,0 +1,27 @@
+@font-face{ 
+    font-family: "unifont"; 
+    src: url("./unifont.woff") format('woff'); 
+}
+body{
+    color: white;
+    background-color: black;
+    margin: 0 auto;
+    padding: 1em 0 1em 0;
+}
+a{ 
+    color: #93ffd7;
+}
+h2{
+    text-align: center;
+    color: aqua;
+}
+pre{ 
+    font-family: "unifont", "Lucida Console", monospace, Monaco; 
+    font-size:16px; 
+    line-height: 1.0;
+    padding-left: 20px;
+}
+.txtdiv{
+    display: block;
+    text-align: center;
+}
