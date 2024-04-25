@@ -7,8 +7,8 @@ body {
     background-color: black;
     margin: 0 auto;
     padding: 1em 0 1em 0;
-    overflow-x: hidden;
-    overflow-y: hidden;
+    /*overflow-x: hidden;
+    overflow-y: hidden;*/
 }
 a { color: #93ffd7; }
 h2 {
