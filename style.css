@@ -15,9 +15,13 @@ h2 {
     text-align: center;
     color: aqua;
 }
-.txtdiv {
+div {
     display: block;
     text-align: center;
+}
+.textbox {
+    text-align: left;
+    display: inline-block;
 }
 pre { 
     font-family: "unifont", "Lucida Console", monospace, Monaco; 
