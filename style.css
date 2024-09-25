@@ -7,8 +7,6 @@ body {
     background-color: black;
     margin: 0 auto;
     padding: 1em 0 1em 0;
-    /*overflow-x: hidden;
-    overflow-y: hidden;*/
 }
 a { color: #93ffd7; }
 h2 {
@@ -37,4 +35,3 @@ img {
     max-height: auto;
 }
 * { cursor: url(images/cursor.png), auto; }
-@media only screen and (max-width: 600px) { * { font-size: 1.5rem; } }
