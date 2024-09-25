@@ -8,7 +8,10 @@ body {
     margin: 0 auto;
     padding: 1em 0 1em 0;
 }
-a { color: #93ffd7; }
+a { 
+    color: #93ffd7; 
+    cursor: url(images/cursor.png), pointer;
+}
 h2 {
     text-align: center;
     color: aqua;
@@ -34,4 +37,3 @@ img {
     max-width: auto;
     max-height: auto;
 }
-* { cursor: url(images/cursor.png), auto; }
